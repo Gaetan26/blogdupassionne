@@ -16,7 +16,7 @@ Principalement destiné à ceux qui découvre le monde de la programmation, cet 
 
 <img src="https://unsplash.com/photos/ECGv8s2IPG0/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzA5OTI5NDM2fA&force=true&w=640" style="zoom:50%;" />
 
-Nous discuterons ensemble des différentes Roadmap **_(Ce quoi une roadmap? [cliquez ici](https://fr.wikipedia.org/wiki/Roadmap) pour le savoir)_** que vous pourriez emprunter pour débuter dans le domaine souhaité. Et pour accompagner ces Roadmap, nous allons découvrir quelques outils de base en programmation et aussi des outils de productivité pour la prise de note et parler des quelques éléments de bases d'un ordinateur (__RAM, Disques, Processeur, GPU, OS__) pour bien prendre en main les technologies que vous utiliserez 
+Nous discuterons ensemble des différentes Roadmap _(Ce quoi une roadmap? [cliquez ici](https://fr.wikipedia.org/wiki/Roadmap) pour le savoir)_ que vous pourriez emprunter pour débuter dans le domaine souhaité. Et pour accompagner ces Roadmap, nous allons découvrir quelques outils de base en programmation et aussi des outils de productivité pour la prise de note et parler des quelques éléments de bases d'un ordinateur (__RAM, Disques, Processeur, GPU, OS__) pour bien prendre en main les technologies que vous utiliserez 
 
 Vous serez capable à l'issu de cet atelier de choisir la roadmap qui vous convient en fonction de votre domaine cible, de savoir sur quelles plateforme internet (__chaîne YouTube, Forum, Site Web__) ou trouver les meilleurs ressources pour débuter ! __Ça sent bon tout çà 😋__
 
