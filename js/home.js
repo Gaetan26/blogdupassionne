@@ -44,7 +44,7 @@ function initialize(articles){
 }
 
 const ARTICLES_CONTAINER = document.getElementById("articles")
-const ARTICLES_URL = "http://127.0.0.1:3000/datas/all-articles.json"
+const ARTICLES_URL = "https://gaetan26.github.io/blogdupassionne/datas/all-articles.json"
 fetch(ARTICLES_URL)
     .then((response) => {
         if(!response.ok)
