@@ -44,12 +44,6 @@ Vous serez capable à l'issu de cet atelier de choisir la roadmap qui vous convi
 
 Le HTML et le CSS font de merveilles en ce qui est de la programmation web et pourquoi ne pas en profiter ? _100% pratique_ c'est le mot maître de cet atelier. Nous allons apprendre ensemble à créer un site internet statique à le rendre beau et disponible sur internet sans aucun frais d'hébergement ! Vous pourrez créer de __Portfolio__ _([portfolio sur wikipédia](https://fr.wikipedia.org/wiki/Portfolio))_, de sites pour vos projets (_une collecte de fonds par exemple_), des pages pour rendre vos devoirs, des pages pour votre promo et vous pourrez même vous faire de l'argent et proposant vos services à ceux qui sont intéressés ! 
 
-## HTML 5 Logo
-<img width="480" src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1"/>
-
-## CSS 3 Logo
-<img width="480" src="https://img.icons8.com/color/480/css3.png" alt="css3"/>
-
 **Mais attention**, nous ne verrons que les bases de ces 2 langages dans cet atelier vous aurez ensuite le devoir de vous améliorez par vos propres moyens (__en pratiquant beaucoup__) pour devenir un super développeur HTML - CSS 
 
 <table>
