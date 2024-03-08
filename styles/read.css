@@ -65,7 +65,7 @@ article blockquote p{
 }
 
 article a{
-    color: #000;
+    color: #1DA1F2;
     text-decoration: underline solid var(--quote-text-color);
 }
 
