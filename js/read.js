@@ -31,8 +31,8 @@ function initialize(articles, slug){
 const ARTICLE_BOX = document.getElementById("article")
 const current_page_url = new URL(window.location.href)
 const slug = current_page_url.searchParams.get("slug")
-const MARKDOWN_FILES_ENDPOINT = `http://127.0.0.1:3000/datas/markdown/`
-const ARTICLES_URL = "http://127.0.0.1:3000/datas/all-articles.json"
+const MARKDOWN_FILES_ENDPOINT = `https://gaetan26.github.io/blogdupassionne/datas/markdown/`
+const ARTICLES_URL = "https://gaetan26.github.io/blogdupassionne/datas/all-articles.json"
 
 fetch(ARTICLES_URL)
     .then((response) => {
