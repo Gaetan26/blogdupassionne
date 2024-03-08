@@ -1,0 +1,58 @@
+/* paysage */
+@media screen and (max-width:1024px) {
+    :root{
+        --boxs-size: 70%;
+    }
+}
+
+/* tablette */
+@media screen and (max-width:900px) {
+    :root{
+        --boxs-size: 75%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    :root{
+        --boxs-size: 80%;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:720px) {
+    :root{
+        --boxs-size: 90%;
+    }
+
+    header nav ul{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+
+    footer #networks{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    header nav ul{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+
+    header nav ul li{
+        width: 100%;
+    }
+
+    footer #networks{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+
+    footer #networks .network{
+        width: 100%;
+    }
+
+}

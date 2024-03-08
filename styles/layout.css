@@ -1,0 +1,224 @@
+/* :root{
+    --boxs-size: 60%;
+    --body-background-color: #d5d4d0;
+    --boxs-background-color: #ffffff;
+    --normal-text-color: #000000;
+    --quote-text-color: #303030;
+} */
+
+:root{
+    --boxs-size: 60%;
+    --body-background-color: #1b1e28;
+    --boxs-background-color: #14171f;
+    --normal-text-color: #ffffff;
+    --quote-text-color: silver;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body-background-color);
+    padding: 50px 0;
+}
+
+header,
+main,
+footer{
+    margin: 0 auto;
+}
+
+/* toggle section */
+section#toggle-section{
+    margin: 0px auto;
+    margin-bottom: 50px;
+    width: var(--boxs-size);
+    display: flex;
+    justify-content: center;
+}
+
+section#toggle-section button{
+    padding: 12px;
+    cursor: pointer;
+    background: rgb(7, 94, 84);
+    border: none;
+    font-family: "Ubuntu";
+    font-size: 15px;
+    border-radius: 60px;
+    box-shadow: 0 0 0 0px rgba(7, 94, 84, .6);
+    animation: pulse .8s ease-in-out infinite;
+    transition: .3s;
+}
+
+section#toggle-section button:hover,
+section#toggle-section button:focus{
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    transition: .3s;
+    outline: none;
+}
+
+@keyframes pulse{
+    to {
+        box-shadow: 0 0 0 8px rgba(7, 94, 84, .1);
+    }
+}
+
+/* header */
+header{
+    width: calc(var(--boxs-size) - 50px);
+    padding: 35px 25px;
+    background: #fff;
+    background-image: url('../medias/uploaded/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+header::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+header h1{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+header p{
+    text-align: center;
+    margin: 30px 0;
+    font-family: "Ubuntu";
+    font-size: 22px;
+    z-index: 10;
+    position: relative;
+}
+
+header nav{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+header nav ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+header nav ul li{
+    width: 80%;
+    text-align: center;
+    list-style-type: none;
+    padding: 12px 0;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    background: rgba(0,0,0,.2);
+    border-radius: 36px;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: .3s;
+    outline: none;
+}
+
+header nav ul li:hover{
+    background: rgba(255,255,255,.5);
+    transition: .3s;
+}
+
+header nav ul li:hover a{
+    color: #000;
+}
+
+/* footer */
+footer{
+    width: calc(var(--boxs-size) - 50px);
+    background: var(--boxs-background-color);
+    padding: 35px 25px;
+    color: var(--normal-text-color)
+}
+
+footer p{
+    font-family: "Ubuntu";
+    font-size: 22px;
+}
+
+footer p:nth-child(1){
+    max-width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--quote-text-color);
+}
+
+footer p:nth-child(2){
+    margin-bottom: 5px;
+}
+
+footer #networks{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+
+footer #networks a{
+    text-decoration: none;
+}
+
+footer #networks a:focus{
+    outline: none;
+}
+
+footer #networks .network{
+    width: calc(90% - 16px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 8px;
+    background: #000;
+}
+
+footer #networks .network img{
+    width: 35px;
+    margin-left: 15px;
+}
+
+footer #networks .network span{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #fff;
+}

@@ -1,0 +1,89 @@
+/* main */
+main{
+    width: calc(var(--boxs-size) - 50px);
+    padding: 35px 25px;
+    background: var(--boxs-background-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    grid-column-gap: 100px;
+}
+
+main article{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    margin: 55px auto;
+    color: var(--normal-text-color)
+}
+
+main article:nth-child(1){
+    margin-top: 0;
+}
+
+main article:last-child{
+    margin-bottom: 0;
+}
+
+main article div{
+    position: relative;
+}
+
+main article div img{
+    width: 100%;
+    transition: .3s;
+}
+
+main article div span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(0,0,0,.8);
+    padding: 12px;
+    border-radius: 36px;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: .5;
+    cursor: pointer;
+    transition: .3s;
+}
+
+main article h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: "Work Sans";
+    font-size: 32px;
+    max-width: 80%;
+}
+
+main article p.date{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: var(--quote-text-color)
+}
+
+main article p:nth-child(4){
+    width: 85%;
+    margin: 0 auto;
+    font-family: "work sans";
+    font-size: 20px;
+    letter-spacing: .2px;
+}
+
+main article:hover div img{
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+main article:hover div span{
+    transform: translateX(-50%) translateY(-200%);
+    opacity: 0;
+    transition: .3s;
+}

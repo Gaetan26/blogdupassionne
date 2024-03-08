@@ -1,0 +1,51 @@
+/* paysage */
+@media screen and (max-width:1024px) {
+    main article {
+        grid-template-columns: .9fr 1.1fr;;
+    }
+}
+
+/* tablette */
+@media screen and (max-width:900px) {
+
+}
+
+@media screen and (max-width:768px) {
+    main article {
+        grid-template-columns: 1fr 1fr;;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:720px) {
+    main article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main article h1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    main article p:last-child{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    main article p.date{
+        width: auto;
+    }
+
+    main article img{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+}

@@ -1,0 +1,101 @@
+/* main */
+main{
+    width: calc(var(--boxs-size) - 60px);
+    padding: 45px 30px;
+    background: var(--boxs-background-color);
+    position: relative;
+    color: var(--normal-text-color)
+}
+
+main article{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+article h1,
+article h2,
+article h3{
+    font-family: "WOrk Sans";
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+article h1:nth-child(1){
+    margin-top: 0;
+}
+
+article h1{
+    font-size: 35px;
+}
+
+article h2{
+    font-size: 30px;
+}
+
+article h3{
+    font-size: 25px;
+}
+
+article p{
+    font-family: "Work Sans";
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 32px;
+}
+
+article ul{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article blockquote{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--quote-text-color);
+    border-left: 3px solid var(--quote-text-color);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+article blockquote p{
+    font-family: "Ubuntu";
+}
+
+article a{
+    color: #000;
+    text-decoration: underline solid var(--quote-text-color);
+}
+
+article a:focus{
+    outline: none;
+    border: 2px solid var(--quote-text-color);
+    text-decoration: none;
+}
+
+article img{
+    max-width: 100%;
+}
+
+article table{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+article table thead{
+    font-family: "WOrk Sans";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+article table td{
+    border: 1px solid var(--quote-text-color);
+    padding: 2px;
+}
+
+article table tbody{
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
