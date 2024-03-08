@@ -4,16 +4,7 @@
         "title":"Deux ateliers pour t'orienter dans le monde de la programmation !!",
         "plot":"Il n'existe rien de mieux pour apprendre à programmer que de pratiquer au maximum possible. Pratiquer t'aide à t’imprégner d'une expertise solides grâce aux situations critiques que tu n'aurais jamais pu rencontrer dans un bouquin.",
         "content":"ateliers-codage-2.md",
-        "banner":"http://127.0.0.1:3000/medias/uploaded/bg1.jpg",
-        "date":"Jeudi 7 Mars 2024"
+        "banner":"https://unsplash.com/photos/tZc3vjPCk-Q/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzA5OTI1NDM5fA&force=true&w=640",
+        "date":"Vendredi 8 Mars 2024"
     },
-    
-    {
-        "slug":"ateliers-codage",
-        "title":"Deux ateliers pour t'orienter dans le monde de la programmation !!",
-        "plot":"Il n'existe rien de mieux pour apprendre à programmer que de pratiquer au maximum possible. Pratiquer t'aide à t’imprégner d'une expertise solides grâce aux situations critiques que tu n'aurais jamais pu rencontrer dans un bouquin.",
-        "content":"ateliers-codage-2.md",
-        "banner":"http://127.0.0.1:3000/medias/uploaded/bg1.jpg",
-        "date":"Jeudi 7 Mars 2024"
-    }
 ]
